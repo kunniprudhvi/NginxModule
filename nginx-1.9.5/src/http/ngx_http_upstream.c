@@ -5035,16 +5035,20 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
             ms = ngx_max(ms, 0);
             p = ngx_sprintf(p, "%T.%03M", (time_t) ms / 1000, ms % 1000);
 	
+	char tmp1[100];
+	char tmp2[100];
+
+	sprintf(tmp1, "%d", (*r).index);
+	strcat(tmp1, " ");
+	sprintf(tmp2, "%d", ms);
+	strcat(tmp1, tmp2);
+	strcpy(prev_up_resp, tmp1);
+
 	printf("xxxxxxx \n");
 	printf("Response time -> %d \n", ms);
-	printf("Check Bool -> %d \n", (*r).check_bool);
+	printf("Global Variable prev_up_resp -> %s \n", prev_up_resp);
 	printf("xxxxxxx \n");
-/*
-	(*r).prev_up = ms;
-	 printf("xxxxxxx \n");
-        printf("Prev Up value inside other Function-> %d \n",  (*r).prev_up);
-        printf("xxxxxxx \n");	
-*/
+
 
 	prev_up_resp = ms;
 

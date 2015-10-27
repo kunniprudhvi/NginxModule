@@ -14,8 +14,7 @@ typedef struct {
     ngx_http_upstream_rr_peer_data_t   rrp;
     ngx_str_t 				uri;    
     char**				ip_val_list;
-    char**				function_val_list;
-    int*				upstream_resp_time;
+  //  char**				function_val_list;
     int					ds_max_count;
     int 				index;
 } ngx_http_upstream_prum_peer_data_t;
@@ -164,6 +163,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 
 	if((*us).check != 0)
 	{
+		printf("Value of global variable in our prum module -> %s \n", prev_up_resp);
 		char *tmp_parser;
 		char tmp_prev_up[500];
 		char tmp_index[10];
@@ -232,18 +232,20 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	if(function_match == 0)
 	{
 		printf("No Function Match. Sending it to default server. \n");
-		(*us).index = 1;		//Default server
+		(*iphp).index = 1;		//Default server
 	}
 	else
 	{
 		printf("Min time is taken by server with index %d. It is %d milliseconds \n ", index_min_time, min_time_peer);	
-		(*us).index = index_min_time;
+		(*iphp).index = index_min_time;
 	}
 	
 	(*us).check++;
+
+	(*r).index = (*iphp).index;
  	
 	iphp->ip_val_list = us->ip_val;
-	iphp->function_val_list = us->function_name;
+//	iphp->function_val_list = us->function_name;
 	(*iphp).ds_max_count = (*us).max_count;
 	
 	r->upstream->peer.get = ngx_http_upstream_get_prum_peer;

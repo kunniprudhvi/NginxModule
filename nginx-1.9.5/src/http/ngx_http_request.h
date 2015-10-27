@@ -375,7 +375,7 @@ struct ngx_http_request_s {
 #endif
 
     int				      check_bool;
-    int				     *prev_up;
+    int				      index;
     ngx_http_upstream_t              *upstream;
     ngx_array_t                      *upstream_states;
                                          /* of ngx_http_upstream_state_t */
