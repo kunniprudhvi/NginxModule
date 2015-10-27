@@ -9,6 +9,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
+extern int prev_up_resp;
 
 #if (NGX_HTTP_CACHE)
 static ngx_int_t ngx_http_upstream_cache(ngx_http_request_t *r,
@@ -5033,6 +5034,19 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 
             ms = ngx_max(ms, 0);
             p = ngx_sprintf(p, "%T.%03M", (time_t) ms / 1000, ms % 1000);
+	
+	printf("xxxxxxx \n");
+	printf("Response time -> %d \n", ms);
+	printf("Check Bool -> %d \n", (*r).check_bool);
+	printf("xxxxxxx \n");
+/*
+	(*r).prev_up = ms;
+	 printf("xxxxxxx \n");
+        printf("Prev Up value inside other Function-> %d \n",  (*r).prev_up);
+        printf("xxxxxxx \n");	
+*/
+
+	prev_up_resp = ms;
 
         } else {
             *p++ = '-';

@@ -15,7 +15,9 @@ typedef struct {
     ngx_str_t 				uri;    
     char**				ip_val_list;
     char**				function_val_list;
+    int*				upstream_resp_time;
     int					ds_max_count;
+    int 				index;
 } ngx_http_upstream_prum_peer_data_t;
 
 
@@ -39,6 +41,7 @@ static ngx_command_t  ngx_http_upstream_prum_commands[] = {
       ngx_null_command
 };
 
+char prev_up_resp[500];
 
 static ngx_http_module_t  ngx_http_upstream_prum_module_ctx = {
     NULL,                                  /* preconfiguration */
@@ -102,11 +105,6 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	}
 
 	iphp->uri = r->uri;
-	//  r->upstream->peer.get = ngx_http_upstream_get_prum_peer;
-	/*
-	   printf("Persistant int -> %d \n" ,(*us).num);
-	   (*us).num++;
-	 */
 
 	FILE * fp;
 	char * line = NULL;
@@ -118,6 +116,12 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	char *parse;
 	char *parse2;
 	int count_ds = 0; 
+	int counter1 = 0;
+	int min_time_peer = 10000;
+	int counter2 = 0;
+	char str_uri[1000];
+	int index_min_time = 0;
+
 
 	if(((*us).check) == 0)
 	{
@@ -144,29 +148,104 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 
 		}
 		(*us).max_count = count_ds;
+		
+		for(counter1=0; counter1<50; counter1++)
+		{
+			(*us).recent_time[counter1] = 10000;
+		}
 
 	}
-	(*us).check++;
-	printf("Value of check: %d \n",  (*us).check);
+
 	fclose(fp);
+
+	/*
+		code to update recent_time
+	*/
+
+	if((*us).check != 0)
+	{
+		char *tmp_parser;
+		char tmp_prev_up[500];
+		char tmp_index[10];
+		char tmp_time[50];
+		int index;
+		int up_serv_time;
+		strcpy(tmp_prev_up, prev_up_resp);
+		tmp_parser = strtok (tmp_prev_up, " ");
+		strcpy(tmp_index, tmp_parser);
+		index = atoi(tmp_index);
+		printf("Index of Upstream time array to be updated -> %d \n", index);
+		tmp_parser = strtok(NULL, " ");
+		strcpy(tmp_time, tmp_parser);
+		up_serv_time = atoi(tmp_time);
+		printf("Time of Upstream time to be updated -> %d \n", index);
+		
+		(*us).recent_time[index] = up_serv_time;	
+	}
+
+
+	/*
+		code to parse uri for R function 
+	*/
+
+	strcpy(str_uri, iphp->uri.data);
+        char *tmp_pointer = str_uri;
+
+	char *pch;
+	char *tmp_rfunc;
+        pch = strtok (tmp_str,"/");
+        pch = strtok(NULL, "/");
+	int function_match = 0;
 	
+	if(strcmp(pch, "user")==0)
+        {
+                int count =0;
+                while (count < 5)
+                {
+                        pch = strtok (NULL, "/");
+                        count++;
+                }
+
+                tmp_rfunc = strtok(pch, " ");
+		printf("R function from URI -> %s \n", tmp_rfunc);
+	}
+
+	/*
+		code to select a peer
+	*/
+
+	for(counter2 = 0; counter2<(*us).ds_max_count; counter2++)
+	{
+		if(strcmp((*us).function_name[counter2], tmp_rfunc) == 0)
+		{
+			function_match = 1;
+			printf("Function Match \n");
+			if(min_time_peer > (*us).recent_time[counter2])
+			{
+				min_time_peer = (*us).recent_time[counter2];
+				index_min_time = counter2;	
+			}
+		}
+	}
+	
+	
+	if(function_match == 0)
+	{
+		printf("No Function Match. Sending it to default server. \n");
+		(*us).index = 1;		//Default server
+	}
+	else
+	{
+		printf("Min time is taken by server with index %d. It is %d milliseconds \n ", index_min_time, min_time_peer);	
+		(*us).index = index_min_time;
+	}
+	
+	(*us).check++;
+ 	
 	iphp->ip_val_list = us->ip_val;
 	iphp->function_val_list = us->function_name;
 	(*iphp).ds_max_count = (*us).max_count;
-
-	/*
-	   int aa = 0;
-	   printf("---------------- \n");
-
-	   for(aa=0; aa<(*us).max_count; aa++)
-	   {
-	   printf("Data structure values -> %s and %s \n", (*us).function_name[aa], (*us).ip_val[aa]);
-	   }
-
-	   printf("---------------- \n");
-	 */
-
-
+	
 	r->upstream->peer.get = ngx_http_upstream_get_prum_peer;
 
 	return NGX_OK;
@@ -315,12 +394,12 @@ ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 		n = 1;
     
     printf("Sending request to Server %d \n", n + 1);
-*/
+
 //    printf("******************* \n");
 
 //    peer = iphp->rrp.peers->peer;
 
-/* 
+ 
     int h = 0;   
  
     for(h=0; h<n; h++)

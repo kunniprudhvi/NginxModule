@@ -124,9 +124,10 @@ struct ngx_http_upstream_srv_conf_s {
     ngx_uint_t                       no_port;  /* unsigned no_port:1 */
     char*			     function_name[50];
     char*			     ip_val[50];
+    int				     recent_time[50];
     int				     max_count;    
     int 			     check;
-
+	
 #if (NGX_HTTP_UPSTREAM_ZONE)
     ngx_shm_zone_t                  *shm_zone;
 #endif
