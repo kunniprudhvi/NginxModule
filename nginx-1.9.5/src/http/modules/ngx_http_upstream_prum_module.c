@@ -162,7 +162,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	/*
 		code to update recent_time
 	*/
-/*
+
 	if((*us).check != 0)
 	{
 		printf("Value of global variable in our prum module -> %s \n", prev_up_resp);
@@ -184,7 +184,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		
 		(*us).recent_time[index] = up_serv_time;	
 	}
-*/
+
 
 	/*
 		code to parse uri for R function 
