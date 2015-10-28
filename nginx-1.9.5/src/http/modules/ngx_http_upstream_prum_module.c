@@ -121,6 +121,8 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	char str_uri[1000];
 	int index_min_time = 0;
 
+	printf("******************* \n");
+	printf("Persistant DS check value -> %d \n", (*us).check);
 
 	if(((*us).check) == 0)
 	{
@@ -160,7 +162,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	/*
 		code to update recent_time
 	*/
-
+/*
 	if((*us).check != 0)
 	{
 		printf("Value of global variable in our prum module -> %s \n", prev_up_resp);
@@ -178,11 +180,11 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		tmp_parser = strtok(NULL, " ");
 		strcpy(tmp_time, tmp_parser);
 		up_serv_time = atoi(tmp_time);
-		printf("Time of Upstream time to be updated -> %d \n", index);
+		printf("Time of Upstream time to be updated -> %d \n", up_serv_time);
 		
 		(*us).recent_time[index] = up_serv_time;	
 	}
-
+*/
 
 	/*
 		code to parse uri for R function 
@@ -193,7 +195,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 
 	char *pch;
 	char *tmp_rfunc;
-        pch = strtok (tmp_str,"/");
+        pch = strtok (str_uri,"/");
         pch = strtok(NULL, "/");
 	int function_match = 0;
 	
@@ -213,17 +215,32 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	/*
 		code to select a peer
 	*/
-
-	for(counter2 = 0; counter2<(*us).ds_max_count; counter2++)
+/*
+	   int aa = 0;
+           printf("---------------- \n");
+           for(aa=0; aa<(*us).max_count; aa++)
+           {
+           printf("Data structure values in get peer function -> %s and %s \n", (*us).function_name[aa], (*us).ip_val[aa]);
+           }
+           printf("---------------- \n");
+*/
+	for(counter2 = 0; counter2<(*us).max_count; counter2++)
 	{
 		if(strcmp((*us).function_name[counter2], tmp_rfunc) == 0)
 		{
 			function_match = 1;
+			printf("******** \n ");
+			printf("counter number = %d \n", counter2);
+			printf("(*us).function_name[counter2] value = %s \n", (*us).function_name[counter2]);
+			printf("tmp_rfunc = %s \n", tmp_rfunc);
+			printf("******** \n ");
 			printf("Function Match \n");
-			if(min_time_peer > (*us).recent_time[counter2])
+			if(min_time_peer >= (*us).recent_time[counter2])
 			{
 				min_time_peer = (*us).recent_time[counter2];
-				index_min_time = counter2;	
+				index_min_time = counter2;
+				printf("counter number again = %d \n", counter2);
+				printf("index_min_time = %d \n", index_min_time);	
 			}
 		}
 	}
@@ -257,176 +274,60 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 static ngx_int_t
 ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 {
-    ngx_http_upstream_prum_peer_data_t  *iphp = data;
-
-    ngx_http_upstream_rr_peer_t  *peer;
-
-    char tmp_str[1000];
-    strcpy(tmp_str, iphp->uri.data);
-    char *tmp_pointer = tmp_str;
-
-/*
-	   int aa = 0;
-           printf("---------------- \n");
-
-           for(aa=0; aa<(*iphp).ds_max_count; aa++)
-           {
-           printf("Data structure values in get peer function -> %s and %s \n", (*iphp).function_val_list[aa], (*iphp).ip_val_list[aa]);
-           }
-
-           printf("---------------- \n");
+	ngx_http_upstream_prum_peer_data_t  *iphp = data;
+	ngx_http_upstream_rr_peer_t  *peer;
 	
-*/
- 
-    printf("******************* \n");    
-
-//    printf("str_temp -> %s \n", tmp_str); 
-/*
-    while (c = *tmp_pointer++)
-        hash = ((hash << 5) + hash) + c;
-
-    printf("Hash value %u \n", hash);
-   
-    int n = hash%2;
-
-    printf("Sending request to Server %d \n", n + 1);
-
-    printf("Number of servers available %u \n", iphp->rrp.peers->number);	
-*/
-
-        char *pch;
-        pch = strtok (tmp_str,"/");
-	pch = strtok(NULL, "/");
-	int n;	
-	int num_serv;	
-	int index;
-	int loop_count =0;
+	int loop_count = 0;
+	int num_serv;
 	struct sockaddr_in *sin;  
 	char *ip;
+	int ip_index;
+
 	peer = iphp->rrp.peers->peer;
-	peer = peer->next;
-	if(strcmp(pch, "user")==0)
+	num_serv = iphp->rrp.peers->number;				
+	
+	/*
+		Findind the peer based on index
+	*/
+
+	ip_index = (*iphp).index;
+
+	for(loop_count = 0; loop_count<num_serv; loop_count++)
 	{
-		int count =0;
-		while (count < 5)
+		sin = malloc(sizeof(struct sockaddr_in));
+		sin = (struct sockaddr_in *) peer->sockaddr;
+		ip = malloc(150);
+		ip = inet_ntoa(sin->sin_addr);
+		printf("IP from Peer list -> %s \n", ip);
+
+		//Need to make this generic. Currently works only for our VM scenario.
+
+		if(strncmp(ip, (*iphp).ip_val_list[ip_index], 8) == 0)
 		{
-			pch = strtok (NULL, "/");
-			count++;
+			printf("IP Match \n");
+			break;
 		}
-
-		char *tmp;
-		tmp = strtok(pch, " ");
-
-		for(index = 0; index<(*iphp).ds_max_count; index++)
-		{
-			printf("Function from Nginx URI -> %s\n", tmp);
-			printf("Function from DS -> %s \n", (*iphp).function_val_list[index]);
-			if(strcmp((*iphp).function_val_list[index], tmp) == 0)
-			{
-				break;
-			}
-		}		
-
-		if(index == (*iphp).ds_max_count)
-		{	
-			printf("No Function Match \n");
-			
-		}
-		if(index < (*iphp).ds_max_count )
-		{
-			printf("Function Match \n");	
-			peer = iphp->rrp.peers->peer;
-			printf("IP from DS -> %s \n", (*iphp).ip_val_list[index]);
-			num_serv = iphp->rrp.peers->number;				
-			for(loop_count = 0; loop_count<num_serv; loop_count++)
-			{
-				//			printf("Inside Loop \n");
-				sin = malloc(sizeof(struct sockaddr_in));
-				sin = (struct sockaddr_in *) peer->sockaddr;
-				ip = malloc(150);
-				ip = inet_ntoa(sin->sin_addr);
-				printf("IP from Peer list -> %s \n", ip);
-				//			printf("Length of string from Peer -> %d \n", strlen(ip));
-
-				if(strncmp(ip, (*iphp).ip_val_list[index], 8) == 0)
-				{
-					printf("IP Match \n");
-					break;
-				}
-				if(loop_count < num_serv-1)
-					peer = peer->next;
-				else
-					break;
-			}
-			//		printf("Loop exited \n");
-
-			if(loop_count == num_serv)
-				printf("Peer not found! \n");
-		}
+		if(loop_count < num_serv-1)
+			peer = peer->next;
+		else
+			break;
 
 	}
-	else
-	{
-		printf("Non R Function URI \n");
-		if(!peer)
-		{
-			peer = iphp->rrp.peers->peer;
-			peer = peer->next;
-		}
-	}	
+
+	if(loop_count == num_serv)
+	{	
+		printf("No IP match between DS and Peer list. Sending to default server. \n");
+
+		peer = iphp->rrp.peers->peer;
+		peer = peer->next;
+	}
+
 	iphp->rrp.current = peer;
 	pc->sockaddr = peer->sockaddr;
 	pc->socklen = peer->socklen;
 	pc->name = &peer->name;
 
 	return NGX_OK;
-
-
-	// 		printf("Number of servers available %u \n", iphp->rrp.peers->number); 
-  /*
-    		n = 0;
-
-    		if(strcmp(tmp, "server1") == 0)
-			n = 0;
-   		else
-			n = 1;
-    
-     }
-	else
-		n = 1;
-    
-    printf("Sending request to Server %d \n", n + 1);
-
-//    printf("******************* \n");
-
-//    peer = iphp->rrp.peers->peer;
-
- 
-    int h = 0;   
- 
-    for(h=0; h<n; h++)
-    {
-	peer = peer->next;    
-    }
-	 
-    iphp->rrp.current = peer;
-
-    pc->sockaddr = peer->sockaddr;
-    pc->socklen = peer->socklen;
-    pc->name = &peer->name;
-
-
-	struct sockaddr_in *sin = (struct sockaddr_in *) peer->sockaddr;
-	char *ip = inet_ntoa(sin->sin_addr);
-
-    printf("IP -> %s \n", ip);
-    if(strcmp(ip, "10.0.2.6")==0)
-	{
-	printf("True \n");
-	} 
-printf("******************* \n");
-*/
-//	return NGX_OK;
 }
 
 

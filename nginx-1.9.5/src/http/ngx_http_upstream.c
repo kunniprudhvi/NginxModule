@@ -9,7 +9,7 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-extern int prev_up_resp;
+extern char prev_up_resp[500];
 
 #if (NGX_HTTP_CACHE)
 static ngx_int_t ngx_http_upstream_cache(ngx_http_request_t *r,
@@ -5035,7 +5035,7 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
             ms = ngx_max(ms, 0);
             p = ngx_sprintf(p, "%T.%03M", (time_t) ms / 1000, ms % 1000);
 	
-	char tmp1[100];
+	char tmp1[200];
 	char tmp2[100];
 
 	sprintf(tmp1, "%d", (*r).index);
@@ -5048,9 +5048,6 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 	printf("Response time -> %d \n", ms);
 	printf("Global Variable prev_up_resp -> %s \n", prev_up_resp);
 	printf("xxxxxxx \n");
-
-
-	prev_up_resp = ms;
 
         } else {
             *p++ = '-';
