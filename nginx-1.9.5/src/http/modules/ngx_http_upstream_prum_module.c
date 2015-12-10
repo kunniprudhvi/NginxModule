@@ -41,6 +41,8 @@ static ngx_command_t  ngx_http_upstream_prum_commands[] = {
 };
 
 char prev_up_resp[500];
+int resp_time_arr[50];
+
 
 static ngx_http_module_t  ngx_http_upstream_prum_module_ctx = {
     NULL,                                  /* preconfiguration */
@@ -152,7 +154,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		
 		for(counter1=0; counter1<50; counter1++)
 		{
-			(*us).recent_time[counter1] = 10000;
+			resp_time_arr[counter1] = 10000;
 		}
 
 	}
@@ -162,7 +164,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	/*
 		code to update recent_time
 	*/
-
+/*
 	if((*us).check != 0)
 	{
 		printf("Value of global variable in our prum module -> %s \n", prev_up_resp);
@@ -184,7 +186,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		
 		(*us).recent_time[index] = up_serv_time;	
 	}
-
+*/
 
 	/*
 		code to parse uri for R function 
@@ -235,9 +237,9 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 			printf("tmp_rfunc = %s \n", tmp_rfunc);
 			printf("******** \n ");
 			printf("Function Match \n");
-			if(min_time_peer >= (*us).recent_time[counter2])
+			if(min_time_peer >= resp_time_arr[counter2])
 			{
-				min_time_peer = (*us).recent_time[counter2];
+				min_time_peer = resp_time_arr[counter2];
 				index_min_time = counter2;
 				printf("counter number again = %d \n", counter2);
 				printf("index_min_time = %d \n", index_min_time);	
