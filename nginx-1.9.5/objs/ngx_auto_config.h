@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --prefix=/home/pru/nginx"
+#define NGX_CONFIGURE " --prefix=/home/prudhvi/nginx"
 
 #ifndef NGX_COMPILER
 #define NGX_COMPILER  "gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) "
@@ -364,7 +364,7 @@
 
 
 #ifndef NGX_PREFIX
-#define NGX_PREFIX  "/home/pru/nginx/"
+#define NGX_PREFIX  "/home/prudhvi/nginx/"
 #endif
 
 

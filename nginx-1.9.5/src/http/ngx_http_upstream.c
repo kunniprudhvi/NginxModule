@@ -9,7 +9,6 @@
 #include <ngx_core.h>
 #include <ngx_http.h>
 
-extern char prev_up_resp[500];
 extern int resp_time_arr[50];
 
 
@@ -5047,6 +5046,7 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 	strcpy(prev_up_resp, tmp1);
 */
 
+	printf("MS -----> %d \n", ms);
 	resp_time_arr[(*r).index] = ms;
 
 	printf("xxxxxxx \n");
@@ -5054,6 +5054,24 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 	printf("Index of global variable updated -> %d \n", (*r).index);
 	printf("Global Variable resp_time_arr -> %d \n", resp_time_arr[(*r).index]);
 	printf("xxxxxxx \n");
+
+        int i = 0;
+        int sum = 0;
+        int count = 0;
+        double average_time = 0;
+        for(i=0; i<50; i++)
+        {
+            if(resp_time_arr[i] != 0 )
+            {
+                sum = sum + resp_time_arr[i];
+                count++;
+            } 
+
+        }
+
+        average_time = sum/count;
+        printf("//////////// \n");
+        printf("Average Response time -> %f \n", average_time);
 
         } else {
             *p++ = '-';

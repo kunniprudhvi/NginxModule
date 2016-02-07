@@ -40,7 +40,7 @@ static ngx_command_t  ngx_http_upstream_prum_commands[] = {
       ngx_null_command
 };
 
-char prev_up_resp[500];
+
 int resp_time_arr[50];
 
 
@@ -109,7 +109,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 
 	FILE * fp;
 	char * line = NULL;
-	fp = fopen("/home/pru/abc.txt", "r");
+	fp = fopen("/home/prudhvi/abc.txt", "r");
 	size_t len = 0;
 	ssize_t read;
 	char parse_str[1000];
@@ -130,7 +130,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	{
 		while ((read = getline(&line, &len, fp)) != -1) 
 		{
-
+                     
 			printf("Line from file -> %s \n", line);
 			strcpy(parse_str, line);
 			strcpy(parse_str2, line);
@@ -154,7 +154,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		
 		for(counter1=0; counter1<50; counter1++)
 		{
-			resp_time_arr[counter1] = 10000;
+			resp_time_arr[counter1] = 0;
 		}
 
 	}
@@ -231,13 +231,16 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		if(strcmp((*us).function_name[counter2], tmp_rfunc) == 0)
 		{
 			function_match = 1;
-			printf("******** \n ");
+/*			printf("******** \n ");
 			printf("counter number = %d \n", counter2);
 			printf("(*us).function_name[counter2] value = %s \n", (*us).function_name[counter2]);
 			printf("tmp_rfunc = %s \n", tmp_rfunc);
 			printf("******** \n ");
 			printf("Function Match \n");
-			if(min_time_peer >= resp_time_arr[counter2])
+*/
+			printf("tmp_rfunc = %s \n", tmp_rfunc);
+			printf("Function Match \n");
+			if(min_time_peer > resp_time_arr[counter2])
 			{
 				min_time_peer = resp_time_arr[counter2];
 				index_min_time = counter2;
@@ -304,7 +307,7 @@ ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 
 		//Need to make this generic. Currently works only for our VM scenario.
 
-		if(strncmp(ip, (*iphp).ip_val_list[ip_index], 8) == 0)
+		if(strncmp(ip, (*iphp).ip_val_list[ip_index], 13) == 0)
 		{
 			printf("IP Match \n");
 			break;
@@ -323,6 +326,8 @@ ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 		peer = iphp->rrp.peers->peer;
 		peer = peer->next;
 	}
+
+	printf("Hahahahaaa \n");
 
 	iphp->rrp.current = peer;
 	pc->sockaddr = peer->sockaddr;
