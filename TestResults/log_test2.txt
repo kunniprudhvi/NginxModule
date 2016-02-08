@@ -1,0 +1,4160 @@
+******************* 
+Persistant DS check value -> 0 
+Function Match 
+Function Match 
+Min time is taken by server with index 4. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 322 
+Index of global variable updated -> 4 
+Global Variable resp_time_arr -> 322 
+xxxxxxx 
+//////////// 
+resp_time_count -> 1 
+Average Response Time -> 322.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 1 
+Function Match 
+Function Match 
+Min time is taken by server with index 0. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 311 
+Index of global variable updated -> 0 
+Global Variable resp_time_arr -> 311 
+xxxxxxx 
+//////////// 
+resp_time_count -> 2 
+Average Response Time -> 316.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 2 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 220 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 220 
+xxxxxxx 
+//////////// 
+resp_time_count -> 3 
+Average Response Time -> 284.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 3 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 323 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 323 
+xxxxxxx 
+//////////// 
+resp_time_count -> 4 
+Average Response Time -> 294.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 4 
+Function Match 
+Min time is taken by server with index 9. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1411 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1411 
+xxxxxxx 
+//////////// 
+resp_time_count -> 5 
+Average Response Time -> 517.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 5 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 6 
+Average Response Time -> 466.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 6 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 278 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 278 
+xxxxxxx 
+//////////// 
+resp_time_count -> 7 
+Average Response Time -> 439.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 7 
+Function Match 
+Function Match 
+Min time is taken by server with index 3. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 365 
+Index of global variable updated -> 3 
+Global Variable resp_time_arr -> 365 
+xxxxxxx 
+//////////// 
+resp_time_count -> 8 
+Average Response Time -> 430.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 8 
+Function Match 
+Function Match 
+Min time is taken by server with index 7. It is 0 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 382 
+Index of global variable updated -> 7 
+Global Variable resp_time_arr -> 382 
+xxxxxxx 
+//////////// 
+resp_time_count -> 9 
+Average Response Time -> 425.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 9 
+Function Match 
+Min time is taken by server with index 9. It is 1411 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1313 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1313 
+xxxxxxx 
+//////////// 
+resp_time_count -> 10 
+Average Response Time -> 513.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 10 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 11 
+Average Response Time -> 486.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 11 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 278 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 278 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 278 
+xxxxxxx 
+//////////// 
+resp_time_count -> 12 
+Average Response Time -> 469.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 12 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 220 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 218 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 218 
+xxxxxxx 
+//////////// 
+resp_time_count -> 13 
+Average Response Time -> 449.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 13 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 323 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 276 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 276 
+xxxxxxx 
+//////////// 
+resp_time_count -> 14 
+Average Response Time -> 437.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 14 
+Function Match 
+Min time is taken by server with index 9. It is 1313 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1324 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1324 
+xxxxxxx 
+//////////// 
+resp_time_count -> 15 
+Average Response Time -> 496.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 15 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 208 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 208 
+xxxxxxx 
+//////////// 
+resp_time_count -> 16 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 16 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 278 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 277 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 277 
+xxxxxxx 
+//////////// 
+resp_time_count -> 17 
+Average Response Time -> 466.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 17 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 218 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 211 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 211 
+xxxxxxx 
+//////////// 
+resp_time_count -> 18 
+Average Response Time -> 452.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 18 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 276 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 327 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 327 
+xxxxxxx 
+//////////// 
+resp_time_count -> 19 
+Average Response Time -> 445.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 19 
+Function Match 
+Min time is taken by server with index 9. It is 1324 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1347 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1347 
+xxxxxxx 
+//////////// 
+resp_time_count -> 20 
+Average Response Time -> 490.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 20 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 208 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 227 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 227 
+xxxxxxx 
+//////////// 
+resp_time_count -> 21 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 21 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 277 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 320 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 320 
+xxxxxxx 
+//////////// 
+resp_time_count -> 22 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 22 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 211 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 228 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 228 
+xxxxxxx 
+//////////// 
+resp_time_count -> 23 
+Average Response Time -> 460.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 23 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 327 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 308 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 308 
+xxxxxxx 
+//////////// 
+resp_time_count -> 24 
+Average Response Time -> 454.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 24 
+Function Match 
+Min time is taken by server with index 9. It is 1347 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1315 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1315 
+xxxxxxx 
+//////////// 
+resp_time_count -> 25 
+Average Response Time -> 488.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 25 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 227 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 232 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 232 
+xxxxxxx 
+//////////// 
+resp_time_count -> 26 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 26 
+Function Match 
+Function Match 
+Min time is taken by server with index 0. It is 311 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 392 
+Index of global variable updated -> 0 
+Global Variable resp_time_arr -> 392 
+xxxxxxx 
+//////////// 
+resp_time_count -> 27 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 27 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 228 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 252 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 252 
+xxxxxxx 
+//////////// 
+resp_time_count -> 28 
+Average Response Time -> 467.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 28 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 308 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 319 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 319 
+xxxxxxx 
+//////////// 
+resp_time_count -> 29 
+Average Response Time -> 462.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 29 
+Function Match 
+Min time is taken by server with index 9. It is 1315 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1316 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 30 
+Average Response Time -> 490.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 30 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 232 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 232 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 232 
+xxxxxxx 
+//////////// 
+resp_time_count -> 31 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 31 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 320 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 312 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 312 
+xxxxxxx 
+//////////// 
+resp_time_count -> 32 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 32 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 252 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 257 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 257 
+xxxxxxx 
+//////////// 
+resp_time_count -> 33 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 33 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 319 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 326 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 326 
+xxxxxxx 
+//////////// 
+resp_time_count -> 34 
+Average Response Time -> 466.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 34 
+Function Match 
+Min time is taken by server with index 9. It is 1316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1320 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1320 
+xxxxxxx 
+//////////// 
+resp_time_count -> 35 
+Average Response Time -> 490.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 35 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 232 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 234 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 234 
+xxxxxxx 
+//////////// 
+resp_time_count -> 36 
+Average Response Time -> 483.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 36 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 312 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 314 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 314 
+xxxxxxx 
+//////////// 
+resp_time_count -> 37 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 37 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 257 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 210 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 210 
+xxxxxxx 
+//////////// 
+resp_time_count -> 38 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 38 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 326 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 316 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 39 
+Average Response Time -> 467.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 39 
+Function Match 
+Min time is taken by server with index 9. It is 1320 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1308 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1308 
+xxxxxxx 
+//////////// 
+resp_time_count -> 40 
+Average Response Time -> 488.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 40 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 234 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 41 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 41 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 314 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 312 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 312 
+xxxxxxx 
+//////////// 
+resp_time_count -> 42 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 42 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 210 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 221 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 221 
+xxxxxxx 
+//////////// 
+resp_time_count -> 43 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 43 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 317 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 317 
+xxxxxxx 
+//////////// 
+resp_time_count -> 44 
+Average Response Time -> 468.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 44 
+Function Match 
+Min time is taken by server with index 9. It is 1308 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1314 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1314 
+xxxxxxx 
+//////////// 
+resp_time_count -> 45 
+Average Response Time -> 487.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 45 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 217 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 217 
+xxxxxxx 
+//////////// 
+resp_time_count -> 46 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 46 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 312 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 362 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 362 
+xxxxxxx 
+//////////// 
+resp_time_count -> 47 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 47 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 221 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 207 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 207 
+xxxxxxx 
+//////////// 
+resp_time_count -> 48 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 48 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 317 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 317 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 317 
+xxxxxxx 
+//////////// 
+resp_time_count -> 49 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 49 
+Function Match 
+Min time is taken by server with index 9. It is 1314 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1324 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1324 
+xxxxxxx 
+//////////// 
+resp_time_count -> 50 
+Average Response Time -> 487.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 50 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 217 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 212 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 212 
+xxxxxxx 
+//////////// 
+resp_time_count -> 51 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 51 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 362 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 309 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 309 
+xxxxxxx 
+//////////// 
+resp_time_count -> 52 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 52 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 207 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 239 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 239 
+xxxxxxx 
+//////////// 
+resp_time_count -> 53 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 53 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 317 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 307 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 307 
+xxxxxxx 
+//////////// 
+resp_time_count -> 54 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 54 
+Function Match 
+Min time is taken by server with index 9. It is 1324 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1329 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1329 
+xxxxxxx 
+//////////// 
+resp_time_count -> 55 
+Average Response Time -> 486.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 55 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 212 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 237 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 237 
+xxxxxxx 
+//////////// 
+resp_time_count -> 56 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 56 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 309 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 315 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 315 
+xxxxxxx 
+//////////// 
+resp_time_count -> 57 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 57 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 239 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 221 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 221 
+xxxxxxx 
+//////////// 
+resp_time_count -> 58 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 58 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 307 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 322 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 322 
+xxxxxxx 
+//////////// 
+resp_time_count -> 59 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 59 
+Function Match 
+Min time is taken by server with index 9. It is 1329 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1324 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1324 
+xxxxxxx 
+//////////// 
+resp_time_count -> 60 
+Average Response Time -> 486.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 60 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 237 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 211 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 211 
+xxxxxxx 
+//////////// 
+resp_time_count -> 61 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 61 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 315 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 359 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 359 
+xxxxxxx 
+//////////// 
+resp_time_count -> 62 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 62 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 221 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 212 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 212 
+xxxxxxx 
+//////////// 
+resp_time_count -> 63 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 63 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 322 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 308 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 308 
+xxxxxxx 
+//////////// 
+resp_time_count -> 64 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 64 
+Function Match 
+Min time is taken by server with index 9. It is 1324 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1310 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1310 
+xxxxxxx 
+//////////// 
+resp_time_count -> 65 
+Average Response Time -> 485.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 65 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 211 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 216 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 216 
+xxxxxxx 
+//////////// 
+resp_time_count -> 66 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 66 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 359 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 347 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 347 
+xxxxxxx 
+//////////// 
+resp_time_count -> 67 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 67 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 212 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 233 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 233 
+xxxxxxx 
+//////////// 
+resp_time_count -> 68 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 68 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 308 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 306 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 306 
+xxxxxxx 
+//////////// 
+resp_time_count -> 69 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 69 
+Function Match 
+Min time is taken by server with index 9. It is 1310 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1325 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1325 
+xxxxxxx 
+//////////// 
+resp_time_count -> 70 
+Average Response Time -> 485.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 70 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 216 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 231 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 231 
+xxxxxxx 
+//////////// 
+resp_time_count -> 71 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 71 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 347 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 320 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 320 
+xxxxxxx 
+//////////// 
+resp_time_count -> 72 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 72 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 233 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 278 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 278 
+xxxxxxx 
+//////////// 
+resp_time_count -> 73 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 73 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 306 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 352 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 352 
+xxxxxxx 
+//////////// 
+resp_time_count -> 74 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 74 
+Function Match 
+Min time is taken by server with index 9. It is 1325 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1310 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1310 
+xxxxxxx 
+//////////// 
+resp_time_count -> 75 
+Average Response Time -> 486.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 75 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 231 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 239 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 239 
+xxxxxxx 
+//////////// 
+resp_time_count -> 76 
+Average Response Time -> 483.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 76 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 320 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 380 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 380 
+xxxxxxx 
+//////////// 
+resp_time_count -> 77 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 77 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 278 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 222 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 222 
+xxxxxxx 
+//////////// 
+resp_time_count -> 78 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 78 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 352 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 263 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 263 
+xxxxxxx 
+//////////// 
+resp_time_count -> 79 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 79 
+Function Match 
+Min time is taken by server with index 9. It is 1310 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1312 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1312 
+xxxxxxx 
+//////////// 
+resp_time_count -> 80 
+Average Response Time -> 486.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 80 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 239 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 81 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 81 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 380 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 303 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 303 
+xxxxxxx 
+//////////// 
+resp_time_count -> 82 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 82 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 222 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 224 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 224 
+xxxxxxx 
+//////////// 
+resp_time_count -> 83 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 83 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 263 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 269 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 269 
+xxxxxxx 
+//////////// 
+resp_time_count -> 84 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 84 
+Function Match 
+Min time is taken by server with index 9. It is 1312 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1323 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1323 
+xxxxxxx 
+//////////// 
+resp_time_count -> 85 
+Average Response Time -> 485.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 85 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 222 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 222 
+xxxxxxx 
+//////////// 
+resp_time_count -> 86 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 86 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 303 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 303 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 303 
+xxxxxxx 
+//////////// 
+resp_time_count -> 87 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 87 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 224 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 234 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 234 
+xxxxxxx 
+//////////// 
+resp_time_count -> 88 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 88 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 269 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 356 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 356 
+xxxxxxx 
+//////////// 
+resp_time_count -> 89 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 89 
+Function Match 
+Min time is taken by server with index 9. It is 1323 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1316 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 90 
+Average Response Time -> 485.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 90 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 222 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 205 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 205 
+xxxxxxx 
+//////////// 
+resp_time_count -> 91 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 91 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 303 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 273 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 273 
+xxxxxxx 
+//////////// 
+resp_time_count -> 92 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 92 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 234 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 222 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 222 
+xxxxxxx 
+//////////// 
+resp_time_count -> 93 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 93 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 356 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 267 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 267 
+xxxxxxx 
+//////////// 
+resp_time_count -> 94 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 94 
+Function Match 
+Min time is taken by server with index 9. It is 1316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1346 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1346 
+xxxxxxx 
+//////////// 
+resp_time_count -> 95 
+Average Response Time -> 484.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 95 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 205 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 228 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 228 
+xxxxxxx 
+//////////// 
+resp_time_count -> 96 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 96 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 273 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 267 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 267 
+xxxxxxx 
+//////////// 
+resp_time_count -> 97 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 97 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 222 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 239 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 239 
+xxxxxxx 
+//////////// 
+resp_time_count -> 98 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 98 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 267 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 276 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 276 
+xxxxxxx 
+//////////// 
+resp_time_count -> 99 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 99 
+Function Match 
+Min time is taken by server with index 9. It is 1346 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1315 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1315 
+xxxxxxx 
+//////////// 
+resp_time_count -> 100 
+Average Response Time -> 483.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 100 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 228 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 231 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 231 
+xxxxxxx 
+//////////// 
+resp_time_count -> 101 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 101 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 267 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 299 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 299 
+xxxxxxx 
+//////////// 
+resp_time_count -> 102 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 102 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 239 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 224 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 224 
+xxxxxxx 
+//////////// 
+resp_time_count -> 103 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 103 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 276 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 263 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 263 
+xxxxxxx 
+//////////// 
+resp_time_count -> 104 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 104 
+Function Match 
+Min time is taken by server with index 9. It is 1315 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1305 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1305 
+xxxxxxx 
+//////////// 
+resp_time_count -> 105 
+Average Response Time -> 482.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 105 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 231 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 260 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 260 
+xxxxxxx 
+//////////// 
+resp_time_count -> 106 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 106 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 299 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 262 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 262 
+xxxxxxx 
+//////////// 
+resp_time_count -> 107 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 107 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 224 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 108 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 108 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 263 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 276 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 276 
+xxxxxxx 
+//////////// 
+resp_time_count -> 109 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 109 
+Function Match 
+Min time is taken by server with index 9. It is 1305 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1332 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1332 
+xxxxxxx 
+//////////// 
+resp_time_count -> 110 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 110 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 260 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 220 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 220 
+xxxxxxx 
+//////////// 
+resp_time_count -> 111 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 111 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 262 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 265 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 265 
+xxxxxxx 
+//////////// 
+resp_time_count -> 112 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 112 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 221 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 221 
+xxxxxxx 
+//////////// 
+resp_time_count -> 113 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 113 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 276 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 260 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 260 
+xxxxxxx 
+//////////// 
+resp_time_count -> 114 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 114 
+Function Match 
+Min time is taken by server with index 9. It is 1332 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1324 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1324 
+xxxxxxx 
+//////////// 
+resp_time_count -> 115 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 115 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 220 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 224 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 224 
+xxxxxxx 
+//////////// 
+resp_time_count -> 116 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 116 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 265 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 278 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 278 
+xxxxxxx 
+//////////// 
+resp_time_count -> 117 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 117 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 221 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 226 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 226 
+xxxxxxx 
+//////////// 
+resp_time_count -> 118 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 118 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 260 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 262 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 262 
+xxxxxxx 
+//////////// 
+resp_time_count -> 119 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 119 
+Function Match 
+Min time is taken by server with index 9. It is 1324 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1316 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 120 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 120 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 224 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 356 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 356 
+xxxxxxx 
+//////////// 
+resp_time_count -> 121 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 121 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 278 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 265 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 265 
+xxxxxxx 
+//////////// 
+resp_time_count -> 122 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 122 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 226 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 214 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 214 
+xxxxxxx 
+//////////// 
+resp_time_count -> 123 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 123 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 262 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 345 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 345 
+xxxxxxx 
+//////////// 
+resp_time_count -> 124 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 124 
+Function Match 
+Min time is taken by server with index 9. It is 1316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1318 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1318 
+xxxxxxx 
+//////////// 
+resp_time_count -> 125 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 125 
+Function Match 
+Function Match 
+Min time is taken by server with index 4. It is 322 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 338 
+Index of global variable updated -> 4 
+Global Variable resp_time_arr -> 338 
+xxxxxxx 
+//////////// 
+resp_time_count -> 126 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 126 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 265 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 256 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 256 
+xxxxxxx 
+//////////// 
+resp_time_count -> 127 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 127 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 214 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 231 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 231 
+xxxxxxx 
+//////////// 
+resp_time_count -> 128 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 128 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 345 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 256 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 256 
+xxxxxxx 
+//////////// 
+resp_time_count -> 129 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 129 
+Function Match 
+Min time is taken by server with index 9. It is 1318 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1319 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1319 
+xxxxxxx 
+//////////// 
+resp_time_count -> 130 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 130 
+Function Match 
+Function Match 
+Min time is taken by server with index 4. It is 338 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 383 
+Index of global variable updated -> 4 
+Global Variable resp_time_arr -> 383 
+xxxxxxx 
+//////////// 
+resp_time_count -> 131 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 131 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 256 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 271 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 271 
+xxxxxxx 
+//////////// 
+resp_time_count -> 132 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 132 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 231 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 218 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 218 
+xxxxxxx 
+//////////// 
+resp_time_count -> 133 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 133 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 256 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 275 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 275 
+xxxxxxx 
+//////////// 
+resp_time_count -> 134 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 134 
+Function Match 
+Min time is taken by server with index 9. It is 1319 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1324 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1324 
+xxxxxxx 
+//////////// 
+resp_time_count -> 135 
+Average Response Time -> 481.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 135 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 356 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 231 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 231 
+xxxxxxx 
+//////////// 
+resp_time_count -> 136 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 136 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 271 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 286 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 286 
+xxxxxxx 
+//////////// 
+resp_time_count -> 137 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 137 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 218 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 138 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 138 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 275 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 276 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 276 
+xxxxxxx 
+//////////// 
+resp_time_count -> 139 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 139 
+Function Match 
+Min time is taken by server with index 9. It is 1324 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1313 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1313 
+xxxxxxx 
+//////////// 
+resp_time_count -> 140 
+Average Response Time -> 480.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 140 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 231 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 227 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 227 
+xxxxxxx 
+//////////// 
+resp_time_count -> 141 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 141 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 286 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 254 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 254 
+xxxxxxx 
+//////////// 
+resp_time_count -> 142 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 142 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 214 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 214 
+xxxxxxx 
+//////////// 
+resp_time_count -> 143 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 143 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 276 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 259 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 259 
+xxxxxxx 
+//////////// 
+resp_time_count -> 144 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 144 
+Function Match 
+Min time is taken by server with index 9. It is 1313 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1316 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 145 
+Average Response Time -> 479.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 145 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 227 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 146 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 146 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 254 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 286 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 286 
+xxxxxxx 
+//////////// 
+resp_time_count -> 147 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 147 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 214 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 209 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 209 
+xxxxxxx 
+//////////// 
+resp_time_count -> 148 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 148 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 259 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 261 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 261 
+xxxxxxx 
+//////////// 
+resp_time_count -> 149 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 149 
+Function Match 
+Min time is taken by server with index 9. It is 1316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1329 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1329 
+xxxxxxx 
+//////////// 
+resp_time_count -> 150 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 150 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 219 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 219 
+xxxxxxx 
+//////////// 
+resp_time_count -> 151 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 151 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 286 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 283 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 283 
+xxxxxxx 
+//////////// 
+resp_time_count -> 152 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 152 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 209 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 232 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 232 
+xxxxxxx 
+//////////// 
+resp_time_count -> 153 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 153 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 261 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 264 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 264 
+xxxxxxx 
+//////////// 
+resp_time_count -> 154 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 154 
+Function Match 
+Min time is taken by server with index 9. It is 1329 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1320 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1320 
+xxxxxxx 
+//////////// 
+resp_time_count -> 155 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 155 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 219 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 259 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 259 
+xxxxxxx 
+//////////// 
+resp_time_count -> 156 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 156 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 283 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 266 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 266 
+xxxxxxx 
+//////////// 
+resp_time_count -> 157 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 157 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 232 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 244 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 244 
+xxxxxxx 
+//////////// 
+resp_time_count -> 158 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 158 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 264 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 261 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 261 
+xxxxxxx 
+//////////// 
+resp_time_count -> 159 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 159 
+Function Match 
+Min time is taken by server with index 9. It is 1320 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1319 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1319 
+xxxxxxx 
+//////////// 
+resp_time_count -> 160 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 160 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 259 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 252 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 252 
+xxxxxxx 
+//////////// 
+resp_time_count -> 161 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 161 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 266 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 303 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 303 
+xxxxxxx 
+//////////// 
+resp_time_count -> 162 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 162 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 244 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 236 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 236 
+xxxxxxx 
+//////////// 
+resp_time_count -> 163 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 163 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 261 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 272 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 272 
+xxxxxxx 
+//////////// 
+resp_time_count -> 164 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 164 
+Function Match 
+Min time is taken by server with index 9. It is 1319 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1319 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1319 
+xxxxxxx 
+//////////// 
+resp_time_count -> 165 
+Average Response Time -> 478.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 165 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 252 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 211 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 211 
+xxxxxxx 
+//////////// 
+resp_time_count -> 166 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 166 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 303 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 274 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 274 
+xxxxxxx 
+//////////// 
+resp_time_count -> 167 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 167 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 236 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 168 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 168 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 272 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 269 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 269 
+xxxxxxx 
+//////////// 
+resp_time_count -> 169 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 169 
+Function Match 
+Min time is taken by server with index 9. It is 1319 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1309 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1309 
+xxxxxxx 
+//////////// 
+resp_time_count -> 170 
+Average Response Time -> 477.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 170 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 211 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 218 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 218 
+xxxxxxx 
+//////////// 
+resp_time_count -> 171 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 171 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 274 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 274 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 274 
+xxxxxxx 
+//////////// 
+resp_time_count -> 172 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 172 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 173 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 173 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 269 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 265 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 265 
+xxxxxxx 
+//////////// 
+resp_time_count -> 174 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 174 
+Function Match 
+Min time is taken by server with index 9. It is 1309 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1314 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1314 
+xxxxxxx 
+//////////// 
+resp_time_count -> 175 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 175 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 218 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 216 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 216 
+xxxxxxx 
+//////////// 
+resp_time_count -> 176 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 176 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 274 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 287 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 287 
+xxxxxxx 
+//////////// 
+resp_time_count -> 177 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 177 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 210 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 210 
+xxxxxxx 
+//////////// 
+resp_time_count -> 178 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 178 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 265 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 251 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 251 
+xxxxxxx 
+//////////// 
+resp_time_count -> 179 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 179 
+Function Match 
+Min time is taken by server with index 9. It is 1314 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1317 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1317 
+xxxxxxx 
+//////////// 
+resp_time_count -> 180 
+Average Response Time -> 476.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 180 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 216 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 218 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 218 
+xxxxxxx 
+//////////// 
+resp_time_count -> 181 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 181 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 287 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 264 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 264 
+xxxxxxx 
+//////////// 
+resp_time_count -> 182 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 182 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 210 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 211 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 211 
+xxxxxxx 
+//////////// 
+resp_time_count -> 183 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 183 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 251 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 306 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 306 
+xxxxxxx 
+//////////// 
+resp_time_count -> 184 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 184 
+Function Match 
+Min time is taken by server with index 9. It is 1317 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1336 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1336 
+xxxxxxx 
+//////////// 
+resp_time_count -> 185 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 185 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 218 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 210 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 210 
+xxxxxxx 
+//////////// 
+resp_time_count -> 186 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 186 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 264 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 265 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 265 
+xxxxxxx 
+//////////// 
+resp_time_count -> 187 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 187 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 211 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 213 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 213 
+xxxxxxx 
+//////////// 
+resp_time_count -> 188 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 188 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 306 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 263 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 263 
+xxxxxxx 
+//////////// 
+resp_time_count -> 189 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 189 
+Function Match 
+Min time is taken by server with index 9. It is 1336 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1311 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1311 
+xxxxxxx 
+//////////// 
+resp_time_count -> 190 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 190 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 210 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 239 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 239 
+xxxxxxx 
+//////////// 
+resp_time_count -> 191 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 191 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 265 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 265 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 265 
+xxxxxxx 
+//////////// 
+resp_time_count -> 192 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 192 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 213 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 223 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 223 
+xxxxxxx 
+//////////// 
+resp_time_count -> 193 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 193 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 263 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 278 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 278 
+xxxxxxx 
+//////////// 
+resp_time_count -> 194 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 194 
+Function Match 
+Min time is taken by server with index 9. It is 1311 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1316 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1316 
+xxxxxxx 
+//////////// 
+resp_time_count -> 195 
+Average Response Time -> 475.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 195 
+Function Match 
+Function Match 
+Min time is taken by server with index 5. It is 239 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 229 
+Index of global variable updated -> 5 
+Global Variable resp_time_arr -> 229 
+xxxxxxx 
+//////////// 
+resp_time_count -> 196 
+Average Response Time -> 473.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 196 
+Function Match 
+Function Match 
+Min time is taken by server with index 1. It is 265 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 271 
+Index of global variable updated -> 1 
+Global Variable resp_time_arr -> 271 
+xxxxxxx 
+//////////// 
+resp_time_count -> 197 
+Average Response Time -> 472.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 197 
+Function Match 
+Function Match 
+Min time is taken by server with index 2. It is 223 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 232 
+Index of global variable updated -> 2 
+Global Variable resp_time_arr -> 232 
+xxxxxxx 
+//////////// 
+resp_time_count -> 198 
+Average Response Time -> 471.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 198 
+Function Match 
+Function Match 
+Min time is taken by server with index 6. It is 278 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 302 
+Index of global variable updated -> 6 
+Global Variable resp_time_arr -> 302 
+xxxxxxx 
+//////////// 
+resp_time_count -> 199 
+Average Response Time -> 470.000000 
+//////////// 
+
+
+
+
+
+******************* 
+Persistant DS check value -> 199 
+Function Match 
+Min time is taken by server with index 9. It is 1316 milliseconds 
+ IP Match 
+*********************** 
+xxxxxxx 
+Response time -> 1310 
+Index of global variable updated -> 9 
+Global Variable resp_time_arr -> 1310 
+xxxxxxx 
+//////////// 
+resp_time_count -> 200 
+Average Response Time -> 474.000000 
+//////////// 
+
+
+
+
+
