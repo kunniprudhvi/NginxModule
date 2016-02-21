@@ -1117,47 +1117,47 @@ objs/src/http/modules/ngx_http_upstream_zone_module.o:	$(CORE_DEPS) $(HTTP_DEPS)
 manpage:	objs/nginx.8
 
 objs/nginx.8:	man/nginx.8 objs/ngx_auto_config.h
-	sed -e "s|%%PREFIX%%|/home/prudhvi/nginx|" \
-		-e "s|%%PID_PATH%%|/home/prudhvi/nginx/logs/nginx.pid|" \
-		-e "s|%%CONF_PATH%%|/home/prudhvi/nginx/conf/nginx.conf|" \
-		-e "s|%%ERROR_LOG_PATH%%|/home/prudhvi/nginx/logs/error.log|" \
+	sed -e "s|%%PREFIX%%|/home/prudhvi/nginx/|" \
+		-e "s|%%PID_PATH%%|/home/prudhvi/nginx//logs/nginx.pid|" \
+		-e "s|%%CONF_PATH%%|/home/prudhvi/nginx//conf/nginx.conf|" \
+		-e "s|%%ERROR_LOG_PATH%%|/home/prudhvi/nginx//logs/error.log|" \
 		< man/nginx.8 > $@
 
 install:	objs/nginx 		
-	test -d '$(DESTDIR)/home/prudhvi/nginx' || mkdir -p '$(DESTDIR)/home/prudhvi/nginx'
+	test -d '$(DESTDIR)/home/prudhvi/nginx/' || mkdir -p '$(DESTDIR)/home/prudhvi/nginx/'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/sbin' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx/sbin'
-	test ! -f '$(DESTDIR)/home/prudhvi/nginx/sbin/nginx' 		|| mv '$(DESTDIR)/home/prudhvi/nginx/sbin/nginx' 			'$(DESTDIR)/home/prudhvi/nginx/sbin/nginx.old'
-	cp objs/nginx '$(DESTDIR)/home/prudhvi/nginx/sbin/nginx'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//sbin' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx//sbin'
+	test ! -f '$(DESTDIR)/home/prudhvi/nginx//sbin/nginx' 		|| mv '$(DESTDIR)/home/prudhvi/nginx//sbin/nginx' 			'$(DESTDIR)/home/prudhvi/nginx//sbin/nginx.old'
+	cp objs/nginx '$(DESTDIR)/home/prudhvi/nginx//sbin/nginx'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/conf' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx/conf'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//conf' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx//conf'
 
-	cp conf/koi-win '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/koi-utf '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/win-utf '$(DESTDIR)/home/prudhvi/nginx/conf'
+	cp conf/koi-win '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/koi-utf '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/win-utf '$(DESTDIR)/home/prudhvi/nginx//conf'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/mime.types '$(DESTDIR)/home/prudhvi/nginx/conf/mime.types.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/mime.types '$(DESTDIR)/home/prudhvi/nginx//conf/mime.types.default'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/fastcgi_params 		'$(DESTDIR)/home/prudhvi/nginx/conf/fastcgi_params.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/fastcgi_params 		'$(DESTDIR)/home/prudhvi/nginx//conf/fastcgi_params.default'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/fastcgi.conf '$(DESTDIR)/home/prudhvi/nginx/conf/fastcgi.conf.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/fastcgi.conf '$(DESTDIR)/home/prudhvi/nginx//conf/fastcgi.conf.default'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/uwsgi_params 		'$(DESTDIR)/home/prudhvi/nginx/conf/uwsgi_params.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/uwsgi_params 		'$(DESTDIR)/home/prudhvi/nginx//conf/uwsgi_params.default'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/prudhvi/nginx/conf'
-	cp conf/scgi_params 		'$(DESTDIR)/home/prudhvi/nginx/conf/scgi_params.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/prudhvi/nginx//conf'
+	cp conf/scgi_params 		'$(DESTDIR)/home/prudhvi/nginx//conf/scgi_params.default'
 
-	test -f '$(DESTDIR)/home/prudhvi/nginx/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/prudhvi/nginx/conf/nginx.conf'
-	cp conf/nginx.conf '$(DESTDIR)/home/prudhvi/nginx/conf/nginx.conf.default'
+	test -f '$(DESTDIR)/home/prudhvi/nginx//conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/prudhvi/nginx//conf/nginx.conf'
+	cp conf/nginx.conf '$(DESTDIR)/home/prudhvi/nginx//conf/nginx.conf.default'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/logs' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx/logs'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//logs' 		|| mkdir -p '$(DESTDIR)/home/prudhvi/nginx//logs'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/logs' || 		mkdir -p '$(DESTDIR)/home/prudhvi/nginx/logs'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//logs' || 		mkdir -p '$(DESTDIR)/home/prudhvi/nginx//logs'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/html' 		|| cp -R html '$(DESTDIR)/home/prudhvi/nginx'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//html' 		|| cp -R html '$(DESTDIR)/home/prudhvi/nginx/'
 
-	test -d '$(DESTDIR)/home/prudhvi/nginx/logs' || 		mkdir -p '$(DESTDIR)/home/prudhvi/nginx/logs'
+	test -d '$(DESTDIR)/home/prudhvi/nginx//logs' || 		mkdir -p '$(DESTDIR)/home/prudhvi/nginx//logs'

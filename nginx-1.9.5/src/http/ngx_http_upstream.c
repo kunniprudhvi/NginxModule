@@ -10,7 +10,8 @@
 #include <ngx_http.h>
 
 extern int resp_time_arr[50];
-
+extern int resp_time_sum;
+extern int resp_time_count;
 
 #if (NGX_HTTP_CACHE)
 static ngx_int_t ngx_http_upstream_cache(ngx_http_request_t *r,
@@ -5035,18 +5036,9 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 
             ms = ngx_max(ms, 0);
             p = ngx_sprintf(p, "%T.%03M", (time_t) ms / 1000, ms % 1000);
-/*	
-	char tmp1[200];
-	char tmp2[100];
 
-	sprintf(tmp1, "%d", (*r).index);
-	strcat(tmp1, " ");
-	sprintf(tmp2, "%d", ms);
-	strcat(tmp1, tmp2);
-	strcpy(prev_up_resp, tmp1);
-*/
 
-	printf("MS -----> %d \n", ms);
+//	printf("MS -----> %d \n", ms);
 	resp_time_arr[(*r).index] = ms;
 
 	printf("xxxxxxx \n");
@@ -5055,23 +5047,23 @@ ngx_http_upstream_response_time_variable(ngx_http_request_t *r,
 	printf("Global Variable resp_time_arr -> %d \n", resp_time_arr[(*r).index]);
 	printf("xxxxxxx \n");
 
-        int i = 0;
-        int sum = 0;
-        int count = 0;
-        double average_time = 0;
-        for(i=0; i<50; i++)
-        {
-            if(resp_time_arr[i] != 0 )
-            {
-                sum = sum + resp_time_arr[i];
-                count++;
-            } 
-
-        }
-
-        average_time = sum/count;
+      
         printf("//////////// \n");
-        printf("Average Response time -> %f \n", average_time);
+        resp_time_sum = resp_time_sum + ms;
+        resp_time_count++;
+        double avg_resp_time;
+        avg_resp_time = resp_time_sum/resp_time_count;
+//        printf("resp_time_sum -> %d \n", avg_resp_time);
+        printf("resp_time_count -> %d \n", resp_time_count);
+        printf("Average Response Time -> %f \n", avg_resp_time); 
+        printf("//////////// \n");
+        printf("\n");
+        printf("\n");
+        printf("\n");
+        printf("\n");
+        printf("\n");
+
+
 
         } else {
             *p++ = '-';

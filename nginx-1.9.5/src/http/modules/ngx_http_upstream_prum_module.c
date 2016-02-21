@@ -42,7 +42,8 @@ static ngx_command_t  ngx_http_upstream_prum_commands[] = {
 
 
 int resp_time_arr[50];
-
+int resp_time_sum;
+int resp_time_count;
 
 static ngx_http_module_t  ngx_http_upstream_prum_module_ctx = {
     NULL,                                  /* preconfiguration */
@@ -118,7 +119,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	char *parse2;
 	int count_ds = 0; 
 	int counter1 = 0;
-	int min_time_peer = 10000;
+	int min_time_peer = 1000000;
 	int counter2 = 0;
 	char str_uri[1000];
 	int index_min_time = 0;
@@ -131,15 +132,15 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 		while ((read = getline(&line, &len, fp)) != -1) 
 		{
                      
-			printf("Line from file -> %s \n", line);
+	//		printf("Line from file -> %s \n", line);
 			strcpy(parse_str, line);
 			strcpy(parse_str2, line);
 			parse = strtok (parse_str, " ");
-			printf("Function from file -> %s \n", parse);
+	//		printf("Function from file -> %s \n", parse);
 
 			parse2 = strtok(parse_str2, " ");
 			parse2 = strtok(NULL, " ");
-			printf("IP from file -> %s \n", parse2);
+	//		printf("IP from file -> %s \n", parse2);
 
 			us->function_name[count_ds] = malloc(50);
 			us->ip_val[count_ds] = malloc(50);    
@@ -193,6 +194,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	*/
 
 	strcpy(str_uri, iphp->uri.data);
+  //      printf("%s \n", str_uri);
         char *tmp_pointer = str_uri;
 
 	char *pch;
@@ -211,7 +213,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
                 }
 
                 tmp_rfunc = strtok(pch, " ");
-		printf("R function from URI -> %s \n", tmp_rfunc);
+//		printf("R function from URI -> %s \n", tmp_rfunc);
 	}
 
 	/*
@@ -238,14 +240,14 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 			printf("******** \n ");
 			printf("Function Match \n");
 */
-			printf("tmp_rfunc = %s \n", tmp_rfunc);
+//			printf("tmp_rfunc = %s \n", tmp_rfunc);
 			printf("Function Match \n");
 			if(min_time_peer > resp_time_arr[counter2])
 			{
 				min_time_peer = resp_time_arr[counter2];
 				index_min_time = counter2;
-				printf("counter number again = %d \n", counter2);
-				printf("index_min_time = %d \n", index_min_time);	
+//				printf("counter number again = %d \n", counter2);
+//				printf("index_min_time = %d \n", index_min_time);	
 			}
 		}
 	}
@@ -254,7 +256,7 @@ ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
 	if(function_match == 0)
 	{
 		printf("No Function Match. Sending it to default server. \n");
-		(*iphp).index = 1;		//Default server
+		(*iphp).index = 8;		//Default server
 	}
 	else
 	{
@@ -303,7 +305,7 @@ ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 		sin = (struct sockaddr_in *) peer->sockaddr;
 		ip = malloc(150);
 		ip = inet_ntoa(sin->sin_addr);
-		printf("IP from Peer list -> %s \n", ip);
+//		printf("IP from Peer list -> %s \n", ip);
 
 		//Need to make this generic. Currently works only for our VM scenario.
 
@@ -327,7 +329,7 @@ ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
 		peer = peer->next;
 	}
 
-	printf("Hahahahaaa \n");
+	printf("*********************** \n");
 
 	iphp->rrp.current = peer;
 	pc->sockaddr = peer->sockaddr;
